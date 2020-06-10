@@ -1,3 +1,15 @@
+'''
+Wanted to prove that methods using simple match could sometimes replace efficient
+search algorithms such as binary search.
+
+Conclusion: Bisection pacakge > numpy > home cooked bisection
+
+Numpy-based math works faster than home-cooked bisection method.
+Home-cooked bisection can't handle large data
+Bisection package bisect is incredibly fast, and doesn't run out of memory even
+with large dataset.
+
+'''
 import numpy as np
 import bisect
 import time
